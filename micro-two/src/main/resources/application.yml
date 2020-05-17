@@ -1,0 +1,9 @@
+
+server:
+  port: 8191
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
